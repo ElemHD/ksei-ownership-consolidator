@@ -1,0 +1,45 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+config.json
+!config.example.json
+credentials.json
+*.pem
+*.key
+
+# Raw Data, Databases & Generated Workbooks
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.dta
+*.xlsx
+*.xls
+*.parquet
+*.log
+data/*
+!data/.gitkeep
+input/
+raw_data/
+Balancepos*.txt
+
+# Packaging Archives
+*.zip
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
